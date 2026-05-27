@@ -1,13 +1,13 @@
-import Logo from "./Logo/Logo";
 import SearchIcon from "@mui/icons-material/Search";
 import HomeOutlinedIcon from "@mui/icons-material/HomeOutlined";
 import ChatOutlinedIcon from "@mui/icons-material/ChatOutlined";
 import AddBoxOutlinedIcon from "@mui/icons-material/AddBoxOutlined";
 import Avatar from "@mui/material/Avatar";
+import Logo from "./../Logo/Logo";
 
 import "./Header.css";
 
-const Header = () => {
+const Header = ({ handleOpen }) => {
   return (
     <div className="header-wrapper">
       <div className="container">
@@ -24,13 +24,17 @@ const Header = () => {
             <a href="#">
               <ChatOutlinedIcon className="icon" />
             </a>
-            <a href="#">
-              <AddBoxOutlinedIcon className="icon" />
-            </a>
+
+            <AddBoxOutlinedIcon
+              onClick={handleOpen}
+              className="icon"
+              style={{ cursor: "pointer" }}
+            />
+
             <a href="#">
               <Avatar
                 alt="Remy Sharp"
-                src="/static/images/avatar/1.jpg"
+                src="/images/person/0.png"
                 sx={{ width: 28, height: 28 }}
               />
             </a>
