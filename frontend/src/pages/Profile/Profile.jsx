@@ -53,7 +53,7 @@ const Profile = () => {
               </div>
             </div>
             <div className="head-right-bottom">
-              <b>eminbasbayan</b>
+              <b>Emin Başbayan</b>
               <span>I am a fullstack Web Developer</span>
             </div>
           </div>
