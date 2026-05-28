@@ -16,3 +16,11 @@
 .home-page .home-page-right {
   flex: 2;
 }
+
+/* responsive */
+
+@media (max-width: 768px) {
+  .home-page-right {
+    display: none;
+  }
+}

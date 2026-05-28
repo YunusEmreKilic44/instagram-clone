@@ -21,10 +21,10 @@ const App = () => {
       <Header handleOpen={handleOpen} />
       <Share handleClose={handleClose} open={open} />
       {/* <Home /> */}
-      {/* <Profile /> */}
+      <Profile />
       {/* <Messenger /> */}
       {/* <Register /> */}
-      <Login />
+      {/* <Login /> */}
     </div>
   );
 };

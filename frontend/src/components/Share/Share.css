@@ -3,7 +3,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: #fff;
+  background: white;
   width: 500px;
   height: auto;
   z-index: 999;
@@ -25,8 +25,8 @@
 
 .modal-body-top {
   display: flex;
-  align-items: center;
   column-gap: 6px;
+  align-items: center;
 }
 
 .modal-body-top .modal-text-input {
@@ -55,9 +55,24 @@
   margin-top: 8px;
 }
 
-.share-img-wrapper .cancel-icon {
+.cancel-icon {
   position: absolute;
-  top: 15px;
+  top: 5px;
   right: 5px;
   cursor: pointer;
+}
+
+/* responsive */
+
+@media (max-width: 768px) {
+  .modal-box {
+    width: 100%;
+  }
+
+  .modal-box .modal-buttons {
+    justify-content: center;
+  }
+  .modal-box .modal-buttons button:not(:first-child) {
+    display: none;
+  }
 }

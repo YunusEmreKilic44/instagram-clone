@@ -24,3 +24,11 @@
   margin-left: 10px;
   font-weight: 500;
 }
+
+/* responsive */
+
+@media (max-width: 768px) {
+  .chat-online-name {
+    display: none;
+  }
+}
