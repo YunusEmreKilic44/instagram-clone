@@ -27,11 +27,11 @@
   background: #fafafa;
 }
 
-.post-header .post-image {
+.post-image {
   display: flex;
 }
 
-.post-header .post-image img {
+.post-image img {
   object-fit: cover;
 }
 

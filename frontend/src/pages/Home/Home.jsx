@@ -8,8 +8,8 @@ const Home = () => {
       <div className="home-page">
         <div className="home-page-left">
           <div className="posts">
-            <Post />
-            <Post />
+            <Post top bottom />
+            <Post bottom />
           </div>
         </div>
         <div className="home-page-right">
