@@ -5,6 +5,7 @@ import Share from "./components/Share/Share";
 import Profile from "./pages/Profile/Profile";
 import Messenger from "./pages/Messenger/Messenger";
 import Register from "./pages/Register/Register";
+import Login from "./pages/Login/Login";
 
 const App = () => {
   const [open, setOpen] = useState(false);
@@ -22,7 +23,8 @@ const App = () => {
       {/* <Home /> */}
       {/* <Profile /> */}
       {/* <Messenger /> */}
-      <Register />
+      {/* <Register /> */}
+      <Login />
     </div>
   );
 };

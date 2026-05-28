@@ -1,6 +1,6 @@
 import TextField from "@mui/material/TextField";
-import "./Register.css";
 import Button from "@mui/material/Button";
+import "./Register.css";
 
 const Register = () => {
   return (
