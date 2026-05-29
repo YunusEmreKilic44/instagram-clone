@@ -7,6 +7,7 @@ const morgan = require("morgan");
 
 const authRoutes = require("./routes/auth");
 const userRoutes = require("./routes/users");
+const postRoutes = require("./routes/posts");
 
 const app = express();
 const port = 5000;
@@ -26,6 +27,7 @@ const connect = async () => {
 
 app.use("/auth", authRoutes);
 app.use("/users", userRoutes);
+app.use("/posts", postRoutes);
 
 app.listen(port, () => {
   connect();
